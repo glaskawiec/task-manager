@@ -1,0 +1,67 @@
+body {
+    background: #212529;
+}
+
+a {
+    color: lightyellow;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+header {
+    background: #212121;
+}
+
+.priority-select {
+    width: 4.2em;
+    display: inline-block;
+}
+
+.text-input {
+    width: 200px;
+    display: inline-block;
+}
+
+.group {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+.nav-item:hover {
+    cursor: pointer;
+    background-color: #29272a;
+}
+
+.nav-item {
+    line-height: 3em;
+    font-size: 1.2em;
+    height: 3em;
+}
+
+.apptitle {
+ margin: 0;
+  padding: 0.7em;
+   text-align: left;
+    color: yellow;
+}
+
+.activetab {
+    background-color: #141414;
+}
+
+.nav {
+    background-color: #1e1d1f;
+}
+
+.navlink {
+    display: block;
+     height: 100%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
