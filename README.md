@@ -15,5 +15,9 @@ cd houxTasks
 npm install
 npm start
 ```
+
+## :sunrise_over_mountains: Screens
+![alt text](https://i.ibb.co/4Y2y5Y7/Untitled-1.png "Screen")
+
 ---
 ##### glaskawiec © 2019 - MIT license
