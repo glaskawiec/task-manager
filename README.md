@@ -11,13 +11,19 @@ This project was created to show usage of ✨[Houx](https://github.com/glaskawie
 Open you fav terminal and type:
 ```
 git clone https://github.com/glaskawiec/houxTasks.git
-cd houxTasks
+cd task-manager
 npm install
 npm start
 ```
 
+## :hammer: Tests
+Open you fav terminal and type in project root directory:
+```
+npm run test
+```
+
 ## :sunrise_over_mountains: Screens
-![alt text](https://i.ibb.co/4Y2y5Y7/Untitled-1.png "Screen")
+![alt text](https://i.ibb.co/f9s5bcd/Screenshot-2020-08-02-at-12-50-36.png "Screen")
 
 ---
 ##### glaskawiec © 2019 - MIT license
