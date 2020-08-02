@@ -1,5 +1,6 @@
 import {
   TASKS_ADD,
+  TASKS_CHANGE_ORDER,
   TASKS_CLOSE_MODAL,
   TASKS_EDIT,
   TASKS_OPEN_ADD_MODAL,
@@ -13,3 +14,4 @@ export const openEditModal = (id) => ({ type: TASKS_OPEN_EDIT_MODAL, id });
 export const openAddModal = () => ({ type: TASKS_OPEN_ADD_MODAL });
 export const closeModal = () => ({ type: TASKS_CLOSE_MODAL });
 export const editTask = (id, editedTask) => ({ type: TASKS_EDIT, editedTask, id });
+export const changeOrder = (id, orderDown) => ({ type: TASKS_CHANGE_ORDER, orderDown, id });

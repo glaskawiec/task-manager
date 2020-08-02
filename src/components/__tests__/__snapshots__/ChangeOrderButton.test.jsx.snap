@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangeOrderButton component unit tests ChangeOrderButton should render properly 1`] = `
+<div>
+  <span
+    aria-label="arrow down"
+    data-testid="order-up-task-1-button"
+    role="img"
+    style="margin-left: 0.5em; cursor: pointer;"
+  >
+    ⬆
+    ️
+  </span>
+</div>
+`;

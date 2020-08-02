@@ -5,7 +5,7 @@ import {
   TASKS_EDIT,
   TASKS_OPEN_ADD_MODAL,
   TASKS_OPEN_EDIT_MODAL,
-  TASKS_CLOSE_MODAL,
+  TASKS_CLOSE_MODAL, TASKS_CHANGE_ORDER,
 } from '../actionTypes/tasksActionTypes';
 
 export const initialState = {
@@ -26,8 +26,16 @@ export const initialState = {
         text: 'purple',
       },
     },
+    {
+      id: 2,
+      title: 'Example task 3',
+      description: '',
+      colors: {
+        text: 'yellow',
+      },
+    },
   ],
-  nextId: 1,
+  nextId: 3,
   isEditModalOpen: false,
   currentEditTaskId: null,
   isAddModalOpen: false,
@@ -50,7 +58,6 @@ const tasksReducer = (state = initialState, action) => {
     case TASKS_REMOVE: {
       return {
         ...state,
-        nextId: state.nextId - 1,
         tasks: state.tasks.filter((task) => task.id !== action.id),
       };
     }
@@ -86,6 +93,32 @@ const tasksReducer = (state = initialState, action) => {
           { ...action.editedTask, id: currentEditTaskId },
         ],
         currentEditTaskId: null,
+      };
+    }
+    case TASKS_CHANGE_ORDER: {
+      const {orderDown, id} = action;
+      const tasksCopy = [...state.tasks];
+      let tasksToOrderIndex = 0;
+
+      for( ; tasksToOrderIndex < tasksCopy.length; ++tasksToOrderIndex){
+        if(tasksCopy[tasksToOrderIndex].id === id){
+          break;
+        }
+      }
+
+      if(orderDown){
+        const previousId = tasksCopy[tasksToOrderIndex+1].id;
+        tasksCopy[tasksToOrderIndex].id = previousId;
+        tasksCopy[tasksToOrderIndex+1].id = id;
+      } else {
+        const previousId = tasksCopy[tasksToOrderIndex-1].id;
+        tasksCopy[tasksToOrderIndex].id = previousId;
+        tasksCopy[tasksToOrderIndex-1].id = id;
+      }
+
+      return {
+        ...state,
+        tasks: tasksCopy
       };
     }
     default: return state;

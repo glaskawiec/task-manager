@@ -77,6 +77,15 @@ exports[`TasksTable component unit tests Header should render properly 1`] = `
             >
               ✏
             </span>
+            <span
+              aria-label="arrow up"
+              data-testid="order-down-task-0-button"
+              role="img"
+              style="margin-left: 0.5em; cursor: pointer;"
+            >
+              ⬇
+              ️
+            </span>
           </td>
         </tr>
         <tr
@@ -123,6 +132,15 @@ exports[`TasksTable component unit tests Header should render properly 1`] = `
               style="margin-left: 0.5em; cursor: pointer;"
             >
               ✏
+            </span>
+            <span
+              aria-label="arrow down"
+              data-testid="order-up-task-1-button"
+              role="img"
+              style="margin-left: 0.5em; cursor: pointer;"
+            >
+              ⬆
+              ️
             </span>
           </td>
         </tr>

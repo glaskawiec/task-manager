@@ -4,6 +4,7 @@ import { Table } from 'react-bootstrap';
 import styled from 'styled-components';
 import RemoveButton from './RemoveButton';
 import EditButton from './EditButton';
+import ChangeOrderButton from "./ChangeOrderButton";
 
 const CollapseButton = styled.span`
   display: inline-block;
@@ -81,6 +82,8 @@ const TasksTable = () => {
               <td>
                 <RemoveButton id={task.id} />
                 <EditButton id={task.id} />
+                  {task.id === state.tasks.tasks[state.tasks.tasks.length-1].id ? null : <ChangeOrderButton orderDown={true} id={task.id} />}
+                  {task.id === state.tasks.tasks[0].id ? null :<ChangeOrderButton orderDown={false} id={task.id} /> }
               </td>
             </Row>
           ))}

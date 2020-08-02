@@ -27,9 +27,9 @@ describe('TasksTable component unit tests', () => {
         },
       },
     ],
-    nextId: 1,
-    isEditModalOpen: false,
+    nextId: 2,
     currentEditTaskId: null,
+    isEditModalOpen: false,
     isAddModalOpen: false,
   };
 
@@ -134,5 +134,35 @@ describe('TasksTable component unit tests', () => {
     );
 
     expect(getByTestId('table-row-0')).toHaveStyle(`color: ${mockedState.tasks[0].colors.text}`);
+  });
+
+  test('User should be able to order task to 1 item down', () => {
+    const { getByTestId } = render(
+        <HouxProvider reducers={reducers}>
+          <TasksTable />
+        </HouxProvider>,
+    );
+
+
+    expect(getNodeText(getByTestId('table-title-cell-0').firstChild)).toBe('Example task');
+
+    fireEvent.click(getByTestId('order-down-task-0-button'));
+
+    expect(getNodeText(getByTestId('table-title-cell-1').firstChild)).toBe('Example task');
+  });
+
+  test('User should be able to order task to 1 item up', () => {
+    const { getByTestId } = render(
+        <HouxProvider reducers={reducers}>
+          <TasksTable />
+        </HouxProvider>,
+    );
+
+
+    expect(getNodeText(getByTestId('table-title-cell-2').firstChild)).toBe('Example task 2');
+
+    fireEvent.click(getByTestId('order-up-task-2-button'));
+
+    expect(getNodeText(getByTestId('table-title-cell-1').firstChild)).toBe('Example task 2');
   });
 });

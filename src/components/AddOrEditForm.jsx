@@ -22,7 +22,7 @@ const AddTaskDoForm = ({ editTaskId }) => {
   const [isError, setIsError] = useState(false);
   const { state, dispatch } = useHoux();
 
-  const isEditForm = editTaskId !== undefined;
+  const isEditForm = editTaskId !== null;
   const currentTask = state.tasks.tasks.filter((t) => t.id === editTaskId)[0];
 
   const title = useInput(currentTask ? currentTask.title : '');

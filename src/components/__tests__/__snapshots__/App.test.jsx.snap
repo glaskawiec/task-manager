@@ -87,6 +87,15 @@ exports[`App component unit tests App should render properly 1`] = `
               >
                 ✏
               </span>
+              <span
+                aria-label="arrow up"
+                data-testid="order-down-task-0-button"
+                role="img"
+                style="margin-left: 0.5em; cursor: pointer;"
+              >
+                ⬇
+                ️
+              </span>
             </td>
           </tr>
           <tr
@@ -133,6 +142,80 @@ exports[`App component unit tests App should render properly 1`] = `
                 style="margin-left: 0.5em; cursor: pointer;"
               >
                 ✏
+              </span>
+              <span
+                aria-label="arrow up"
+                data-testid="order-down-task-1-button"
+                role="img"
+                style="margin-left: 0.5em; cursor: pointer;"
+              >
+                ⬇
+                ️
+              </span>
+              <span
+                aria-label="arrow down"
+                data-testid="order-up-task-1-button"
+                role="img"
+                style="margin-left: 0.5em; cursor: pointer;"
+              >
+                ⬆
+                ️
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="sc-fzozJi ctflPh"
+            color="yellow"
+            data-testid="table-row-2"
+          >
+            <td
+              data-testid="table-id-cell-2"
+            >
+              <p
+                class="sc-Axmtr hFrjGC"
+              >
+                2
+              </p>
+            </td>
+            <td
+              data-testid="table-title-cell-2"
+            >
+              <p
+                class="sc-Axmtr hFrjGC"
+              >
+                Example task 3
+              </p>
+            </td>
+            <td
+              class="sc-AxmLO dweuuQ"
+              data-testid="table-description-cell-2"
+            />
+            <td>
+              <span
+                aria-label="Cross"
+                aria-labelledby="Cross"
+                data-testid="remove-task-2-button"
+                role="img"
+                style="cursor: pointer;"
+              >
+                ❌
+              </span>
+              <span
+                aria-label="Cross"
+                data-testid="edit-task-2-button"
+                role="img"
+                style="margin-left: 0.5em; cursor: pointer;"
+              >
+                ✏
+              </span>
+              <span
+                aria-label="arrow down"
+                data-testid="order-up-task-2-button"
+                role="img"
+                style="margin-left: 0.5em; cursor: pointer;"
+              >
+                ⬆
+                ️
               </span>
             </td>
           </tr>
