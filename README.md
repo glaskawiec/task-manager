@@ -48,8 +48,8 @@ To run unit tests open terminal in project root directory and type:
 npm run test
 ```
 
-## Unit tests
-To run unit tests open terminal in project root directory and type:
+## Production build
+To run production build open terminal in project root directory and type:
 ```
 npm run build
 ```
