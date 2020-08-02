@@ -33,7 +33,7 @@ https://en.wikipedia.org/wiki/Modal_window
 *  [Git](https://git-scm.com) installed
 *  [NPM](https://www.npmjs.com/) installed
 
-## :hammer: Installation
+## :hammer: How to run locally?
 Open you fav terminal and type:
 ```
 git clone https://github.com/glaskawiec/task-manager.git
@@ -42,10 +42,16 @@ npm install
 npm start
 ```
 
-## :hammer: Tests
-Open you fav terminal and type in project root directory:
+## Unit tests
+To run unit tests open terminal in project root directory and type:
 ```
 npm run test
+```
+
+## Unit tests
+To run unit tests open terminal in project root directory and type:
+```
+npm run build
 ```
 
 ## :sunrise_over_mountains: Screens
