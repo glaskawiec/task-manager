@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddOrEditTaskModal component unit tests AddOrEditTaskModal should render properly 1`] = `
+<div>
+  <div
+    class="sc-AxhCb bQtECx"
+    data-testid="add-or-edit-task-modal"
+  >
+    <h3
+      class="sc-AxhUy fNfuCs"
+    >
+      Add new task
+    </h3>
+    <form
+      class=""
+    >
+      <div
+        class="form-group"
+      >
+        <input
+          class="sc-AxirZ HlbFI form-control"
+          data-testid="title-input"
+          error="false"
+          id="title"
+          placeholder="Title"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <input
+          class="form-control"
+          data-testid="description-input"
+          id="description"
+          placeholder="Description"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <input
+          class="form-control"
+          data-testid="background-color-input"
+          id="background-color"
+          placeholder="Background Color"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <input
+          class="form-control"
+          data-testid="text-color-input"
+          id="text-color"
+          placeholder="Text Color"
+          value=""
+        />
+      </div>
+      <button
+        class="sc-AxjAm dwDcds btn btn-primary"
+        data-testid="submit-button"
+        type="submit"
+      >
+        Edit
+      </button>
+      <button
+        class="btn btn-primary"
+        data-testid="close-button"
+        type="button"
+      >
+        Close
+      </button>
+    </form>
+  </div>
+</div>
+`;

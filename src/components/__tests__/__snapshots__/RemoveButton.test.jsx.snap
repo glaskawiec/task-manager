@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemoveButton component unit tests RemoveButton should render properly 1`] = `
+<div>
+  <span
+    aria-label="Cross"
+    aria-labelledby="Cross"
+    data-testid="remove-task-1-button"
+    role="img"
+    style="cursor: pointer;"
+  >
+    ❌
+  </span>
+</div>
+`;

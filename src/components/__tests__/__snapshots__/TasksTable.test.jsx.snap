@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TasksTable component unit tests Header should render properly 1`] = `
+<div>
+  <div
+    class="table-responsive"
+  >
+    <table
+      class="table table-dark table-bordered"
+    >
+      <thead>
+        <tr>
+          <th>
+            Id
+          </th>
+          <th>
+            Title
+          </th>
+          <th>
+            Description
+          </th>
+          <th>
+            Actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="sc-AxhCb kxHtPP"
+          color="pink"
+          data-testid="table-row-0"
+        >
+          <td
+            data-testid="table-id-cell-0"
+          >
+            <p
+              class="sc-AxirZ iivBpk"
+            >
+              0
+            </p>
+          </td>
+          <td
+            data-testid="table-title-cell-0"
+          >
+            <p
+              class="sc-AxirZ iivBpk"
+            >
+              Test task 1
+            </p>
+          </td>
+          <td
+            class="sc-AxiKw yXMWH"
+            data-testid="table-description-cell-0"
+          >
+            <span
+              class="sc-AxjAm fcxugk"
+              data-testid="collapse-button-task-0"
+            >
+              ➡
+            </span>
+          </td>
+          <td>
+            <span
+              aria-label="Cross"
+              aria-labelledby="Cross"
+              data-testid="remove-task-0-button"
+              role="img"
+              style="cursor: pointer;"
+            >
+              ❌
+            </span>
+            <span
+              aria-label="Cross"
+              data-testid="edit-task-0-button"
+              role="img"
+              style="margin-left: 0.5em; cursor: pointer;"
+            >
+              ✏
+            </span>
+          </td>
+        </tr>
+        <tr
+          class="sc-AxhCb gnHiQZ"
+          color="purple"
+          data-testid="table-row-1"
+        >
+          <td
+            data-testid="table-id-cell-1"
+          >
+            <p
+              class="sc-AxirZ iivBpk"
+            >
+              1
+            </p>
+          </td>
+          <td
+            data-testid="table-title-cell-1"
+          >
+            <p
+              class="sc-AxirZ iivBpk"
+            >
+              Test task 2
+            </p>
+          </td>
+          <td
+            class="sc-AxiKw yXMWH"
+            data-testid="table-description-cell-1"
+          />
+          <td>
+            <span
+              aria-label="Cross"
+              aria-labelledby="Cross"
+              data-testid="remove-task-1-button"
+              role="img"
+              style="cursor: pointer;"
+            >
+              ❌
+            </span>
+            <span
+              aria-label="Cross"
+              data-testid="edit-task-1-button"
+              role="img"
+              style="margin-left: 0.5em; cursor: pointer;"
+            >
+              ✏
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

@@ -1,2 +1,0 @@
-export const DONE_TASKS_ADD = 'DONE_TASKS_ADD';
-export const DONE_TASKS_REMOVE = 'DONE_TASKS_REMOVE';

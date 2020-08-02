@@ -1,9 +1,7 @@
-import tasksReducer from './tasksReducer'
-import doneTasksReducer from './doneTasksReducer';
+import tasksReducer from './tasksReducer';
 
-export const reducers = {
-    tasks: tasksReducer,
-    doneTasks: doneTasksReducer
-}
+const reducers = {
+  tasks: tasksReducer,
+};
 
 export default reducers;

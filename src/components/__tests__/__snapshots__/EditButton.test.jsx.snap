@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditButton component unit tests EditButton should render properly 1`] = `
+<div>
+  <span
+    aria-label="Cross"
+    data-testid="edit-task-1-button"
+    role="img"
+    style="margin-left: 0.5em; cursor: pointer;"
+  >
+    ✏
+  </span>
+</div>
+`;
