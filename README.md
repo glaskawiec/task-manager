@@ -10,7 +10,7 @@ This project was created to show usage of ✨[Houx](https://github.com/glaskawie
 ## :hammer: Installation
 Open you fav terminal and type:
 ```
-git clone https://github.com/glaskawiec/houxTasks.git
+git clone https://github.com/glaskawiec/task-manager.git
 cd task-manager
 npm install
 npm start
