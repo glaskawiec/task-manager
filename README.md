@@ -23,7 +23,7 @@ npm run test
 ```
 
 ## :sunrise_over_mountains: Screens
-![alt text](https://i.ibb.co/f9s5bcd/Screenshot-2020-08-02-at-12-50-36.png "Screen")
+![alt text](https://i.ibb.co/Y78Hfs6/Screenshot-2020-08-02-at-16-00-50.png "Screen")
 
 ---
 ##### glaskawiec © 2019 - MIT license
